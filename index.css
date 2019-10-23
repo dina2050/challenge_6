@@ -1,0 +1,74 @@
+.navbar{
+    background-color: #4A91D2;
+}
+
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size:4em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size:0.9em;
+}
+.light-blue {
+    background-color:#76CBFA;
+}
+.dark-blue {
+    background-image:url("images/header.png");
+}
+.white {
+    background-color: white;
+}
+.orange {
+    background-color:#FF3D00;
+    border: 1px solid #FF3D00;;
+    border-radius: 5px;
+    padding: 0 1em 0 1em;
+    color: white;
+}
+
+ h3 a {
+    background-color: #FF3D00;
+    padding: 0.2em;
+    border-radius:5px;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.fond {
+    background-image:url("images/fond.png");
+}
+
+.bgfoot {
+    background-image:url("images/footer.png"); 
+}
+
+.bgarticle{
+    background-image:url("images/fond-article.png"); 
+}
+.bas{
+    background-image:url("images/bas-de-page.png"); 
+}
+
+.citation {
+    background-image:url("images/citation.jpg"); 
+}
+
+.fleche li{
+    list-style-type:none;
+}
+.fleche li::before {
+    content:url("images/fleche.png");
+    margin-right: 1em;
+}
